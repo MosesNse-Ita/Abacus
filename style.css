@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    height:auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: whitesmoke;
+}
+.con{
+     background-color: black;
+     margin-top: 10px;
+     height: 495px;
+     border-radius: 8px; 
+     max-width: 376px;
+     max-height: 752px;
+} 
+.con1{
+    background-color: black;
+    height: 20vh;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{-webkit-appearance: none; margin: 0;}
+.n{
+    width: 100%;
+    height: 100%;
+    font-size: 80px;
+    color: white;
+    background-color: black;
+    text-align: right;
+    border: none;
+    outline: none;
+    
+}
+.con2{
+    background-color: black;
+    height: 100%;
+    padding: 1px;
+    border-radius: 8px; 
+}
+.but{
+    color: white;
+    background-color: #313131;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    margin-top: 2px;
+    margin-bottom: 30px;    
+    margin-left: 27px;
+    transition: all 0.5s ease;  
+    cursor: pointer;
+}
+.but:focus{
+    background-color: white;
+    color: #ffa500;
+}
+.but1{
+    background-color: #ffa500;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    margin-top: 2px;
+    margin-bottom: 30px;    
+    margin-left: 27px; 
+    transition: all 0.5s ease;  
+    cursor: pointer; 
+}
+.but1:focus{
+    background-color: white;
+    color: #ffa500;
+}
+.but2{
+    background-color: #313131;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    margin-top: 2px;
+    margin-bottom: 30px;    
+    margin-left: 27px;  
+    transition: all 0.5s ease;  
+    cursor: pointer;
+}
+.but2:focus{
+    background-color: white;
+    color: #ffa500;
+}
+.but3{
+    background-color: #D9D9D9;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    margin-top: 2px;
+    margin-bottom: 30px;    
+    margin-left: 27px;   
+    transition: all 0.5s ease;  
+    cursor: pointer;
+}
+.but3:focus{
+    background-color: white;
+    color: #ffa500;
+}
+.but4{
+width: 151px;
+height: 60px;
+border-radius: 100px;
+border: none;
+margin-bottom: 30px;
+margin-left: 27px;
+background-color:#313131;
+color: white;
+transition: all 0.5s ease;  
+cursor: pointer;
+}
+.but4:focus{
+    background-color: white;
+    color: #ffa500;
+}
